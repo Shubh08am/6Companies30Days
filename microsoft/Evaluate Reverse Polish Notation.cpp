@@ -1,6 +1,6 @@
 # Evaluate Reverse Polish Notation
 
-[![Problem Link](../assets/gfg.svg)](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
+->[Problem Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 
 Given a number N. The task is to generate and print all binary numbers with decimal values from 1 to N.
 
