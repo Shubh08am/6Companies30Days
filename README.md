@@ -9,7 +9,8 @@ In this repository I am uploading my solutions for [6Companies30Days Challenge](
 
 Sr  | [Problems](./microsoft/README.md)                                                                     | TryIt                                                                                                                                     | Status
 ----|---------------------------------------------------------------------------------------                |-------------------------------------------------------------------------------------------------------------------------------------------|---------
-1   | Evaluate Reverse Polish Notation                                       | [Problem Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)                             | ✅
+1   | Evaluate Reverse Polish Notation                                       | [Problem Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                             | ✅
+2   | Combination Sum III                                      | [Problem Link](https://leetcode.com/problems/combination-sum-iii/)                             | ✅
 
 </details>
 
