@@ -33,33 +33,33 @@ public:
         //cows = no. of digits in wrong pos of guess in secret
         /*
         1123 -- 0111
-        1A23 -- 0A11   cow=1
-        AA23 -- 0AA1   bull=1
+        1A23 -- 0A11   bull=1
+        AA23 -- 0AA1   cow=1
  
         1807-- 7810
-        1A07 -- 7A10   cow=1
-        AA07 -- 7AA0   bull=1
-        AAA7 -- 7AAA   bull=2
-        AAAA -- AAAA   bull=3
+        1A07 -- 7A10   bull=1
+        AA07 -- 7AA0   cow=1
+        AAA7 -- 7AAA   cow=2
+        AAAA -- AAAA   cow=3
         
         */
         int n = secret.size();
         string ans = "";
         int cow=0,bull=0;
         for(int i=0;i<n;i++) {
-            if(secret[i]==guess[i]) {cow++; guess[i]='A';secret[i]='A';}
+            if(secret[i]==guess[i]) {bull++; guess[i]='A';secret[i]='A';}
         }
-        ans+=(to_string(cow));
+        ans+=(to_string(bull));
         ans+='A';
        
        for(int i=0;i<n;i++){
            for(int j=0;j<n;j++){
                if(secret[i]==guess[j] and i!=j and guess[j]!='A' ){
-                  bull++;guess[j]='A';secret[i]='A';
+                  cow++;guess[j]='A';secret[i]='A';
                }
            }
        }
-        ans+=(to_string(bull));
+        ans+=(to_string(cow));
         ans+='B';
 
         return ans;
