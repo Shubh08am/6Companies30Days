@@ -11,6 +11,7 @@ Sr  | [Problems](./microsoft/README.md)                                         
 ----|---------------------------------------------------------------------------------------                |-------------------------------------------------------------------------------------------------------------------------------------------|---------
 1   | Evaluate Reverse Polish Notation                                       | [Problem Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                             | ✅
 2   | Combination Sum III                                      | [Problem Link](https://leetcode.com/problems/combination-sum-iii/)                             | ✅
+3   | Bulls and Cows                                      | [Problem Link](https://leetcode.com/problems/bulls-and-cows/)                             | ✅
 
 </details>
 
