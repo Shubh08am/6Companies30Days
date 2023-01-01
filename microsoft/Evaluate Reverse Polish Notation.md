@@ -2,7 +2,9 @@
 
 ->[Problem Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 
-Given a number N. The task is to generate and print all binary numbers with decimal values from 1 to N.
+You are given an array of strings tokens that represents an arithmetic expression in a Reverse Polish Notation.
+Evaluate the expression. Return an integer that represents the value of the expression.
+
 
 ### Sample Input
 ```
